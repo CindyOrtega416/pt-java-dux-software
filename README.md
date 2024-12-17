@@ -9,7 +9,7 @@ Esta es una aplicación REST API para la gestión de equipos de fútbol. Proporc
 ## Requisitos previos
 
 - Java 17 o superior
-- Maven 3.6.0 o superior
+- Maven 3.4.0 o superior
 - Docker instalado y configurado
 
 ---
