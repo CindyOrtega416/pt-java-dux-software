@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Esta es una aplicación REST API para la gestión de equipos de fútbol. Proporciona endpoints para gestionar información relacionada con los equipos, jugadores y partidos.
+Esta es una aplicación REST API para la gestión de equipos de fútbol. Proporciona endpoints para gestionar información relacionada con los equipos.
 
 ---
 
