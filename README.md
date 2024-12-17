@@ -22,7 +22,10 @@ Antes de ejecutar la aplicación, asegúrate de configurar las variables de ento
    ```bash
    cp .env.example .env
    ```
-2. Configura las variables en el archivo `.env` según tus necesidades.
+2. Configura las variables en el archivo `.env` con 
+````bash
+JWT_SECRET=wLkzH3XqdV7sdfsdKJdfsdfsdXsdjfHsd12sdAsdmfds=
+````
 
 ---
 
@@ -30,7 +33,7 @@ Antes de ejecutar la aplicación, asegúrate de configurar las variables de ento
 
 1. **Construir la imagen de Docker:**
    ```bash
-   docker build -t pt-java-dux-software .
+   docker build -t pt-java-dux-software:v4
    ```
 
 2. **Descargar la imagen desde un registro remoto:**
@@ -38,11 +41,15 @@ Antes de ejecutar la aplicación, asegúrate de configurar las variables de ento
    docker pull cindy416/pt-java-dux-software
    ```
 
-4. **Ejecutar el contenedor:**
+3. **Ejecutar el contenedor:**
    ```bash
    docker run -p 8080:8080 --env-file .env cindy416/pt-java-dux-software
    ```
 
+4**Verificar el contenedor en ejecución:**
+   ```bash
+   docker ps
+   ```
 ---
 
 ## Endpoints de la API
@@ -73,7 +80,10 @@ Authorization: Bearer <tu_token_jwt>
 
 ## Notas adicionales
 
-- Actualmente, Swagger UI no se encuentra disponible debido a restricciones de implementación.
+- Actualmente, Swagger UI se encuentra disponible en:
+```bash
+http://localhost:8080/swagger-ui/index.html#/
+```
 - Para más información sobre los endpoints, consulta este archivo o las pruebas unitarias.
 
 ---
