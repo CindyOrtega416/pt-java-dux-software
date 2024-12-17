@@ -101,4 +101,4 @@ Si deseas contribuir al proyecto:
 
 ## Contacto
 
-Si tienes preguntas o problemas, no dudes en crear un issue o contactarme a través de mi correo: `cindyortega416@example.com`.
+Si tienes preguntas o problemas, no dudes en crear un issue o contactarme a través de mi correo: `cindyortega416@gmail.com`.
